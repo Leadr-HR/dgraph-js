@@ -1,5 +1,5 @@
 {
-  "name": "dgraph-js",
+  "name": "@leadr-hr/dgraph-js",
   "version": "24.0.0",
   "description": "Official javascript client for Dgraph",
   "license": "Apache-2.0",
@@ -17,6 +17,9 @@
   ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "clean": "rimraf coverage",
     "rm": "rm -fr node_modules package-lock.json yarn.lock",
